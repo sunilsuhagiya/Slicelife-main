@@ -24,6 +24,7 @@ public class HomepageTest extends BaseTest {
         homePage.clickOnAboutUs();
         Assert.assertEquals(aboutUsPage.verifyText(),"FOR THE LOVE\n" +
                 "OF INDEPENDENTS","Message not displayed");
+        System.out.println("This is 1st change");
     }
 
 }
